@@ -20,7 +20,7 @@ async fn main() {
     // framework; // set the bot's prefix to "~"
 
     // Login with a bot token from the environment
-    let token = "MTE3Njk5MzI4MTE1NTAyNzAyNA.G-L7dq.YYkocsQANrH6FiUKpJUxtWN8lsQPyKVDNGBLso";
+    let token = "";
     let intents = GatewayIntents::non_privileged() | GatewayIntents::MESSAGE_CONTENT;
     let mut client = Client::builder(token, intents)
         .event_handler(Handler)
